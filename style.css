@@ -1,0 +1,172 @@
+
+body{
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+p{
+    line-height: 1.25;
+    
+    
+}
+.resume{
+    width: 70%;
+    height: 2000px;
+    /* background-color: aqua; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+
+    min-height: 1000px;
+    background-color: #FAF3F3;
+    padding-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+nav{
+    height: 40px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #D5DCE4;
+}
+ a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: blue;
+}
+.details a{
+    padding-left: 20px;
+    
+}
+.img-contact{
+    height: 150px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: brown; */
+    border-bottom: 1px solid black;
+}
+.img-contact .contact-details a{
+   color: blue;
+   text-decoration-line: underline;
+   
+}
+.contact-details p{
+    text-align: end;
+}
+.highlight{
+    font-size: 17px;
+    background-color: #D5DCE4;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+}
+/* .qualification{
+    background-color: blueviolet;
+}
+.area-of-interest{
+    background-color: blueviolet;
+} */
+h2.highlight:hover{
+    color: blue;
+    transition-duration: 1ms;
+}
+.margin{
+    /* padding-top: 30px; */
+    padding-bottom: 30px;
+   
+}
+
+
+.edu-details table, .edu-details th, .edu-details td {
+    border: 3px solid white;
+    border-collapse: collapse;
+    /* text-align: center; */
+  }
+  .edu-details th, .edu-details td{
+    background-color: #DEEDF0;
+    padding: 10px;
+    text-align: left;
+  }
+  .edu-details tr{
+      height: 50px;
+  }
+  /* tr:hover{
+    background-color: blue;
+    } */
+  OL , ul{
+      line-height: 1.25;
+  }
+ 
+  .html-css{
+      display: flex;
+      justify-content: space-between;
+  }
+  .budget-app{
+    display: flex;
+    justify-content: space-between;
+}
+.projects h2{
+    font-size: 17px;
+}
+form{
+    padding-top: 30px;
+    /* padding-left: 150px;
+    padding-right: 150px; */
+    /* background-color: rgb(138, 255, 127); */
+}
+.inp-wrapper{
+    display: block;
+    margin-bottom: 30px;
+}
+.new-line{
+    display: block;
+    margin-bottom: 10px;
+}
+input[type=text] , textarea,select{
+    box-sizing: border-box;
+    width: 60%;
+    padding:11px 25px;
+    
+}
+
+.submit-button{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 11px 25px;
+    border-radius: 5px;
+}
+.submit-button:hover{
+    background-color: #CDDEFF;
+}
+.icon{
+    font-size: 40px;
+    padding-right:10px ;
+    color: #385899;
+}
+/* li:id1{
+    list-style-image: url(images/star-solid.svg);
+} */
+.rating{
+    
+    color: orange;
+}
+.padd-left{
+    padding: 0 25px;
+   
+}
+tr{
+    height: 30px;
+}
